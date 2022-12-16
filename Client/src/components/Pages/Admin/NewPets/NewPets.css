@@ -1,0 +1,52 @@
+/* #NovosPets {
+    position: absolute;
+    top: 8.2rem;
+    width: 100%;
+
+}
+
+.Imgpet {
+    width: 10rem;
+    height: 10rem;
+}
+
+.Line {
+    align-items: baseline;
+}
+
+#link-Wpp img {
+    color: blue;
+    height: 100%;
+}
+
+.Petinfo {
+    display: grid;
+}
+
+#contact {
+    height: 1.5rem;
+}
+#contact a {
+    padding-left: 2rem;
+}
+#approve{
+    cursor: pointer !important;
+}
+ .pet{
+    width: 90% ;
+    display: flex;
+    flex-direction: column;
+    
+
+} */
+
+#NovosPets{
+    margin-top: 2.4rem;
+}
+
+#adminbtns{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+

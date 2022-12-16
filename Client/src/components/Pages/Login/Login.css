@@ -1,0 +1,87 @@
+.login-card {
+    background-color: rgba(187, 117, 82, 0.863);
+    /* superior | direita | inferior | esquerda */
+    padding: 0rem 1rem 2rem 1rem;
+    width: 15rem;
+    flex-direction: column;
+    border-radius: 1rem;
+    display: inline-block;
+    flex-direction: row;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.login-banner {
+    top: 8.1rem;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 8.1rem);
+
+}
+
+.login-card h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 100%;
+}
+
+.login {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 0.4rem;
+}
+
+
+
+.submit {
+    display: flex;
+    padding-inline: 10%;
+    justify-content: space-between;
+}
+
+
+.submit button {
+    background-color: rgb(141, 85, 57) !important;
+    border-radius: 1rem;
+    border-style: solid;
+    padding-inline: 8%;
+    border-width: 0.1em !important;
+    border-color:  rgb(141, 85, 57) ;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.submit button:hover {
+    background-color: rgba(187, 117, 82, 0.8) !important;
+    border-width: 0.1em;
+    border-color:  rgb(141, 85, 57) ;
+}
+
+.login input {
+    display: block;
+    width: 70rem;
+    border-radius: 0.4rem;
+    padding-left: 0.4em;
+    border-style: solid;
+    border-width: 0.08rem;
+    border-color: rgb(136, 83, 39);
+    background-color: rgb(243, 203, 182);
+    outline-offset: none;
+    outline-style: solid;
+    outline-width: 0;
+
+}
+
+
+
+.login label {
+    width: 25rem;
+    padding-right: 0.5rem;
+    color: white;
+    text-align: end;
+}

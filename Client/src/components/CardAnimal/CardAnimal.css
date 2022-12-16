@@ -1,0 +1,103 @@
+.Card {
+    display: inline-block;
+
+}
+
+
+.CardAnimal {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    margin: 3%;
+    height: 17rem;
+    margin: 0rem 1rem 1rem 0rem;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.2),
+        0 0 0 0px rgb(245, 245, 245),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+
+}
+
+.CardAnimal a :first-child {
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.CardAnimal ul {
+    display: flex;
+    padding: 0%;
+    flex-direction: column;
+}
+
+.img {
+    width: 17rem;
+
+}
+
+
+.CardAnimal ul li {
+    color: rgb(80, 47, 34);
+    text-decoration-color: none;
+    list-style-type: none;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    text-decoration-line: none;
+}
+
+.infopet {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 10rem;
+    font-size: 1.25rem;
+    color: rgb(48, 29, 16);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    justify-content: space-around;
+    background-color: rgb(208, 205, 202) !important;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.infopets {
+    text-decoration-color: rgb(80, 47, 34);
+}
+
+.infopet h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 29, 16);
+}
+
+.infopet ul li {
+    padding-left: 0;
+    margin: 0;
+}
+
+
+/* .btnSubmit:hover a {
+    color: rgb(163, 74, 33);
+
+
+} */
+
+.btnSubmit {
+    background-color: rgb(163, 74, 33);
+    padding: 0.8rem;
+    border: 0.1em;
+    border-color: rgb(163, 74, 33);
+    border-style: solid;
+    color: rgb(244, 235, 230);
+    border-radius: 2rem;
+    text-decoration: none;
+    /* margin-inline: 2rem; */
+    align-content: center;
+    text-align: center;
+}
+
+.btnSubmit:hover {
+    background-color: rgb(244, 235, 230);
+    padding: 0.8rem;
+    border-color: rgb(163, 74, 33);
+    color: rgb(163, 74, 33);
+
+}

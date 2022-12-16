@@ -1,0 +1,111 @@
+.content {
+    justify-content: center;
+    display: flex;
+    /* height: calc(100% - 8.1rem); */
+    margin: 4rem 0 4rem 0;
+}
+
+.prod-card {
+    display: inline-block;
+    background-color: rgb(160, 108, 63);
+    /* superior | direita | inferior | esquerda */
+    padding: 0rem 1rem 2rem 1rem;
+    width: 35%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: min-content;
+    min-width: min-content;
+    flex-direction: column;
+    border-radius: 1rem;
+    color: white;
+ 
+}
+
+.prod-banner {
+    position: absolute;
+    top: 8.1rem;
+    width: 100%;
+    /* height: calc(100% - 8.1rem); */
+    
+}
+
+
+
+.sub button:hover {
+    background-color: rgba(247, 183, 151, 1) !important;
+}
+
+#foto {
+    background: transparent;
+    border: 0;
+}
+
+.submit-form {
+    align-self: flex-end;
+    background-color: rgb(141, 85, 57) !important;
+    border-radius: 1rem;
+    border-style: solid;
+    padding-inline: 8%;
+    border-width: 0.1em !important;
+    border-color: rgb(141, 85, 57);
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-form:hover {
+    background-color: rgba(187, 117, 82, 0.8) !important;
+    border-width: 0.1em;
+    border-color: rgb(141, 85, 57);
+}
+
+
+.prod-card form p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: block;
+    text-align: end;
+    min-height: min-content;
+
+    color: rgb(246, 255, 0);
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+
+
+.submit_sub {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#prodPhoto {
+    margin-top: 4%;
+    width: 100% !important;
+    height: 50%;
+    border-radius: 1rem;
+}
+
+#Descricao {
+    outline-style: 0.3rem solid;
+    outline-color: rgba(0, 0, 255, 0);
+    border: 0;
+    margin-top: 0%;
+    height: 7rem;
+
+    width: 70%;
+    color: white;
+
+
+    background-color: rgb(173, 125, 84)
+}
+
+
+#Desc {
+    align-items: flex-start;
+}
+
+#ProdServ{
+    text-transform: uppercase;
+}

@@ -1,0 +1,90 @@
+.sub-card {
+    display: inline-block;
+    background-color: rgba(187, 117, 82, 0.863) !important;
+    /* superior | direita | inferior | esquerda */
+    padding: 0rem 1rem 2rem 1rem;
+    width: 25%;
+    /* margin-top: 5rem; */
+    min-width: min-content;
+    flex-direction: column;
+    border-radius: 1rem;
+    color: white;
+
+
+}
+
+
+.sub-banner {
+    margin-top: 3rem;
+    height: calc(100% - 8.2rem);
+
+}
+
+.sub-card h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 100% !important;
+}
+
+.sub {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 0.4rem;
+}
+
+.sub input {
+    display: block;
+    width: 70%;
+    border-radius: 0.4rem;
+    padding-left: 0.4em;
+    border-style: solid;
+    border-width: 0.08rem;
+    border-color: rgb(136, 83, 39);
+    background-color: rgb(243, 203, 182);
+    outline-offset: none;
+    outline-style: solid;
+    outline-width: 0;
+
+}
+
+.sub button {
+    background-color: rgb(141, 85, 57) !important;
+    border-radius: 1rem;
+    border-style: solid;
+    padding-inline: 8%;
+    border-width: 0rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.sub-card form p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: block;
+    text-align: end;
+    color: rgb(246, 255, 0) !important;
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+.sub label {
+    width: 25%;
+    text-align: end;
+    overflow: hidden;
+}
+
+.CPF {
+    -webkit-nbsp-mode: normal;
+    margin: 0;
+}
+
+
+.submit_sub {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}

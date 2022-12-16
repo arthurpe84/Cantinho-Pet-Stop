@@ -1,0 +1,163 @@
+.content {
+    justify-content: center;
+    display: flex;
+    /* height: calc(100% - 8.1rem); */
+    margin: 4rem 0 4rem 0;
+}
+
+.subPet-card {
+    display: flex;
+    background-color: rgb(160, 108, 63);
+    /* superior | direita | inferior | esquerda */
+    padding: 0rem 1rem 2rem 1rem;
+    width: 35%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-height: min-content;
+    min-width: min-content;
+    flex-direction: column;
+    border-radius: 1rem;
+    color: white;
+    justify-content: space-between;
+
+}
+
+
+.sub-banner-pet {
+    position: absolute;
+    margin-top: 2.4rem;
+    background-color: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.sub-card h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    width: 100% !important;
+}
+
+.sub {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    padding-bottom: 0.4rem;
+}
+
+/* .sub input {
+    display: block;
+    width: 77%;
+} */
+
+.sub button:hover {
+    background-color: rgba(247, 183, 151, 1) !important;
+}
+
+#foto {
+    background: transparent;
+    border: 0;
+}
+
+.submit-form {
+    align-self: flex-end;
+    background-color: rgb(141, 85, 57) !important;
+    border-radius: 1rem;
+    border-style: solid;
+    padding-inline: 8%;
+    border-width: 0.1em !important;
+    border-color: rgb(141, 85, 57);
+    justify-content: space-evenly;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-form:hover {
+    background-color: rgba(187, 117, 82, 0.8) !important;
+    border-width: 0.1em;
+    border-color: rgb(141, 85, 57);
+}
+
+.subPet-card form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.sub-card form p {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    display: block;
+    text-align: end;
+    min-height: min-content;
+
+    color: rgb(246, 255, 0);
+    /* width: 100%; */
+    overflow: hidden;
+}
+
+/* .sub label {
+    width: 20%;
+    text-align: right;
+    overflow: hidden;
+} */
+
+.CPF {
+    -webkit-nbsp-mode: normal;
+    margin: 0;
+}
+
+
+.submit_sub {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+#petphoto {
+    margin-top: 4%;
+    width: 100% !important;
+    /* height: 50%; */
+    border-radius: 1rem;
+}
+
+#Sexo {
+    text-transform: uppercase;
+}
+
+#Porte {
+    text-transform: uppercase;
+}
+
+#UF {
+    text-transform: uppercase;
+}
+
+#Cidade {
+    text-transform: uppercase;
+}
+
+
+#Descricao {
+    outline-style: 0.3rem solid;
+    outline-color: rgba(0, 0, 255, 0);
+    border: 0;
+    border-radius: 0.4rem;
+    margin-top: 0%;
+    height: 7rem;
+    resize: none;
+    width: 70%;
+    color: white;
+    background-color: rgb(173, 125, 84)
+}
+
+
+#Descricao::placeholder {
+    padding: 0.2rem;
+    color: beige;
+}

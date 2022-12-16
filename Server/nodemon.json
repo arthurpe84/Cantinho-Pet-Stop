@@ -1,0 +1,10 @@
+{
+    "env": {
+        "MYSQL_HOST": "localhost",
+        "MYSQL_USER": "Admin",
+        "MYSQL_PASSWORD": "root",
+        "MYSQL_DATABASE": "cantinhopet",
+        "MYSQL_PORT": 3306,
+        "JWT_KEY": "Noya"
+    }
+}

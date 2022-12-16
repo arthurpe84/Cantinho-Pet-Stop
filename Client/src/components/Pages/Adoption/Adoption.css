@@ -1,0 +1,24 @@
+
+.CardAnimal{
+    display: flex;
+}
+
+.Adoption h2{
+    color:rgb(48, 29, 16) !important;
+}
+
+#App .Adoption {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    margin-top: 2.4rem;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: inherit;
+}
+
+.App .Card .infopets a img {
+    width: 15rem;
+    height: 100%;
+}

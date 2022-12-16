@@ -1,0 +1,29 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+#root {
+  transform: scale(1.0);
+  transform-origin: 0 0;
+  margin: 0;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgb(248, 244, 241);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+
+}
+
+.sub-banner {
+  height: 100% !important;
+}

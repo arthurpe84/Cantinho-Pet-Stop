@@ -1,0 +1,59 @@
+.TopPage {
+    display: flex;
+    text-align: center;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+    top: 0;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+    background-color: rgb(248, 244, 241);
+}
+
+.TopPage div{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* 
+.LogoPage {
+    display: flex;
+    height: 100%;
+} */
+
+.LogoPage {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-top: 0.2 rem;
+    align-self: flex-start;
+}
+
+.logopng {
+    width: 5.25rem;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* object-position:-0.3rem; */
+}
+
+.SearchBox{
+    justify-content: flex-end !important;
+    justify-content: flex-end !important;
+    height: 1.8rem;
+}
+
+#Search {
+ 
+    background-color: rgb(248, 244, 241);
+    color: black;
+    border-style: solid;
+    border: 2;
+    border-color: rgba(247, 183, 151, 1);
+}
+
+#Search:focus-within {
+    border-color: rgba(247, 183, 151, 1);
+}

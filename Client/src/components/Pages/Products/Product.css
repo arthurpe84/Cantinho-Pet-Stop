@@ -1,0 +1,52 @@
+.ProductPage {
+    display: flex;
+    margin-top: 2.4rem;
+    width: 100%;
+    /* height: calc(100% - 8.2rem); */
+    position: absolute;
+    }
+
+.ProductSelect {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: min-content;
+    gap: 2rem;
+}
+
+.ProductSelect img {
+    height: 30rem;
+    width: 30rem;
+}
+
+.info-Produto {
+    align-items: center;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Prod {
+    width: 30rem;
+}
+
+.Prod img {
+    border-radius: 1rem;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.2),
+        0 0 0 0px rgb(245, 245, 245),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+    margin-top: 1rem;
+    margin-bottom: 2rem !important;
+}
+
+.ProductSelect .Produto-Name {
+    font-size: 1.5rem;
+}
+
+.ProductSelect .Produto-Value {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,63 @@
+#NovosProdutos {
+    position: absolute;
+    width: 100%;
+    margin-top: 2.4rem;
+    background: inherit;
+    padding-bottom: 3rem;
+
+}
+
+#NovosProdutos h2{
+    font-size: 2rem;
+
+}
+.Imgpet {
+    width: 10rem;
+    height: 10rem;
+}
+
+.Line {
+    align-items: baseline;
+}
+
+#link-Wpp img {
+    color: blue;
+    height: 100%;
+}
+
+.Petinfo {
+    display: grid;
+}
+
+#contact {
+    height: 1.5rem;
+}
+.adminbtn{
+    margin-top: 1rem;
+    display: flex;
+    cursor: pointer !important;
+    width: min-content;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    height: 1rem;
+    margin-left: 1rem !important;
+}
+
+
+.adminProdServices{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 8.2rem;
+    justify-content: center;
+}
+
+.adminProdServices .Product{
+    width: 90%;
+ }
+
+ .Produto-Name{
+     text-transform: uppercase;
+}
+

@@ -1,0 +1,270 @@
+.Services {
+    display: flex !important;
+    flex-direction: row;
+    height: min-content !important;
+    gap: 0.5rem;
+    justify-content: center
+}
+
+
+.Service {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    width: 9.25rem;
+    height: 18rem !important;
+    box-shadow:
+        inset 0 0em 0em rgba(0, 0, 0, 0.2),
+        0 0 0 0px rgb(245, 245, 245),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+
+}
+
+.Service p {
+    color: rgb(114, 70, 13);
+    margin: 0rem;
+}
+
+
+
+.Serviceselect p {
+    color: rgb(114, 70, 13);
+    margin: 0rem;
+}
+
+.Service:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.ImgService {
+    Width: 9.25rem;
+    height: 9.25rem;
+}
+
+
+.ButtonBuy {
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(163, 74, 33);
+    padding: 0.2rem;
+    border: 0.1em;
+    margin-bottom: 0.4rem;
+    border-color: rgb(163, 74, 33);
+    border-style: solid;
+    color: rgb(244, 235, 230);
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 70%;
+}
+
+.ButtonBuy:hover {
+    background-color: rgb(244, 235, 230);
+    border-color: rgb(163, 74, 33);
+    color: rgb(163, 74, 33);
+
+}
+
+.Service-Name {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.Service button {
+    cursor: pointer;
+}
+
+.Service img {
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.Service {
+    border-radius: 1rem;
+}
+
+.Produto-Desc {
+    font-size: 1rem;
+    text-align: left;
+}
+
+#SelectVariations {
+    border-radius: 0.5rem;
+    background-color: rgb(163, 74, 33, 0.6);
+    margin-bottom: 1rem;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    align-self: left;
+    align-items: center;
+    border-style: solid;
+    cursor: pointer;
+    width: 60%;
+    align-self: center;
+}
+
+#contactFonecedor {
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-self: left;
+    align-items: center;
+    border-width: 0.2rem;
+    border-radius: 1rem;
+    border-color: green;
+    color: white;
+    background-color: green;
+    border-style: solid;
+    cursor: pointer;
+    width: max-content;
+    align-self: center;
+}
+
+#contactFonecedor a {
+    color: white;
+    text-align: center;
+    display: flex;
+    width: max-content;
+    padding: 0;
+    margin: 0;
+    margin-left: 0.3rem !important;
+    height: 1.5rem;
+    align-items: center;
+
+}
+
+#contactFonecedor img {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#serviceshome {
+    width: 100%;
+}
+
+
+#serviceshome a {
+    color: rgb(163, 74, 33, 0.6);
+    width: 100%;
+    display: none;
+    justify-content: flex-end;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
+
+.ProductPage {
+    justify-content: center;
+}
+
+
+#NossosServicos {
+    display: flex;
+    width: 100%;
+    margin-top: 2.4rem;
+    position: absolute;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    padding-bottom: 4rem;
+}
+
+#NossosServicos .Card {
+    width: min-content;
+}
+
+
+
+
+#NossosProdutos {
+    display: flex;
+    width: 100%;
+    top: 8.2rem;
+    position: absolute;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    background-color: inherit;
+}
+
+#NossosProdutos .Card {
+    width: min-content;
+}
+
+
+.CardServico {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    margin: 3%;
+    height: 17rem;
+    margin: 0rem 1rem 1rem 0rem;
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.2),
+        0 0 0 0px rgb(245, 245, 245),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+
+}
+
+.CardServico a :first-child {
+    height: 100%;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.CardServico ul {
+    display: flex;
+    padding: 0%;
+    flex-direction: column;
+}
+
+.img {
+    width: 17rem;
+
+}
+
+
+.CardServico ul li {
+    color: rgb(80, 47, 34);
+    text-decoration-color: none;
+    list-style-type: none;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    text-decoration-line: none;
+}
+
+.InfoServicos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    width: 8rem;
+    color: rgb(48, 29, 16);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    justify-content: space-around;
+    background-color: rgb(208, 205, 202) !important;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.InfoServicos {
+    text-decoration-color: rgb(80, 47, 34);
+}
+
+.InfoServicos h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(48, 29, 16);
+}
+
+.InfoServicos ul li {
+    padding-left: 0;
+    margin: 0;
+}

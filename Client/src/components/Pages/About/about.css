@@ -1,0 +1,31 @@
+.Sobre h1{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: rgb(58, 40, 28);
+    font: normal normal normal 40px/1.35em cormorantgaramond-semibold,cormorantgaramond,'cormorant garamond',serif;
+}
+
+.Sobre{
+    color: rgb(58, 40, 28);
+    font: normal normal normal 15px/1.875em avenir-lt-w01_35-light1475496,avenir-lt-w05_35-light,sans-serif;
+    line-height: 1.875em;
+    letter-spacing: 0em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.text{
+    display: flex;
+    padding: 2rem;
+    text-align: left;
+    flex-direction: column;
+    gap:2rem;
+    width: 30rem;
+}
+
+.App .Sobre span img {
+    width: 90%;
+    border-radius: 1rem;
+}
